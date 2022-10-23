@@ -22,7 +22,7 @@ export default {
   methods: {
     startGame() {
       console.log("start game");
-      this.shuffleCards();
+      this.flipCard();
     },
     shuffleCards() {
       this.matchedPairs = 0; // reset matchedPairs variable to 0
